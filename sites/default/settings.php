@@ -15,11 +15,15 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  *      the site settings remain consistent.
  */
 include __DIR__ . "/settings.pantheon.php";
-
-/**
- * If there is a local settings file, then include it
- */
-$local_settings = __DIR__ . "/settings.local.php";
-if (file_exists($local_settings)) {
-  include $local_settings;
-}
+$databases['default']['default'] = array (
+  'database' => 'champ',
+  'username' => 'root',
+  'password' => 'password',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['hash_salt'] = 'd4xjpAeumfAM6ZOCkwO_VR1qdDZcqTiN7nB2E5l868vhdpjWF1waVk9arqwXWiUH4z32Dj5bZg';
+$settings['install_profile'] = 'champblog';

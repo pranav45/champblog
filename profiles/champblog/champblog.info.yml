@@ -1,0 +1,43 @@
+name: champblog
+type: profile
+description: 'install custom profile with commonly used features pre-configu.'
+core: 8.x
+
+
+dependencies:
+  - node
+  - history
+  - block
+  - block_content
+  - breakpoint
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - quickedit
+  - help
+  - image
+  - options
+  - path
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - editor
+  - ckeditor
+  - awsome_
+
+# List any themes that should be installed as part of the installation
+# profile installation.
+# Note that this will not set any theme as the default theme.
+themes:
+  - bartik
+  - seven
+  - zircon
