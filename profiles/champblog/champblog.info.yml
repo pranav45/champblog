@@ -32,7 +32,7 @@ dependencies:
   - views_ui
   - editor
   - ckeditor
-  - awsome_
+  - champs_blog
 
 # List any themes that should be installed as part of the installation
 # profile installation.
