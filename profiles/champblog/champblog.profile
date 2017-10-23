@@ -16,10 +16,10 @@ function champblog_install_tasks(&$install_state) {
 */
 function champblog_default_users() {
  $user = \Drupal\user\Entity\User::create();
- $user->setPassword('CHAMP');
+ $user->setPassword('CHAMPION');
  $user->enforceIsNew();
  $user->setEmail('blogger@gmail.com');
- $user->setUsername('CHAMP');
+ $user->setUsername('Champion');
  $user->addRole('blogger');
  $user->set('status',1);
  $res = $user->save();

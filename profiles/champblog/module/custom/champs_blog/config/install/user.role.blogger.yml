@@ -1,0 +1,13 @@
+uuid: 6c4b2a45-a493-43d5-bfd4-7e0d965e1ffa
+langcode: en
+status: true
+dependencies: {  }
+id: blogger
+label: Blogger
+weight: 3
+is_admin: null
+permissions:
+  - 'create awsome_ content'
+  - 'delete own awsome_ content'
+  - 'edit own awsome_ content'
+
